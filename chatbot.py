@@ -8,7 +8,7 @@ client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 while True:
 
-    frage = input("(Exit eingeben um das Porgramm zu beenden)\nStelle eine Frage: " )
+    frage = input("(Exit eingeben um das Programm zu beenden)\nStelle eine Frage: " )
 
     if frage.strip().upper() == "EXIT" :
         break
