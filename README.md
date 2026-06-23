@@ -27,6 +27,15 @@ Möglichkeiten der LLM-Integration einzutauchen.
 | `/clear` | Bildschirm leeren & Gedächtnis zurücksetzen |
 | `/exit` | Programm beenden |
 
+## Was ich dabei gelernt habe
+
+- Wie man eine externe API (Anthropic Claude) in Python anspricht und Antworten per Streaming in Echtzeit verarbeitet
+- API-Keys sicher über Umgebungsvariablen verwalten (.env + python-dotenv)
+- Gesprächsverlauf als Datenstruktur speichern und an die API weitergeben
+- Token-Verbrauch auslesen und daraus die API-Kosten berechnen
+- Eine saubere Terminal-Benutzeroberfläche mit der Rich-Library bauen
+- Fehler robust abfangen (API-Überlastung, ungültige Eingaben, fehlende Dateien)
+
 ## Tech Stack
 
 - Python 3.13
